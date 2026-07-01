@@ -1,6 +1,5 @@
 package org.czbalint.librarymanager.dto;
 
-import java.time.LocalDate;
 import org.czbalint.librarymanager.entity.Reader;
 
 public record ReaderResponse(
