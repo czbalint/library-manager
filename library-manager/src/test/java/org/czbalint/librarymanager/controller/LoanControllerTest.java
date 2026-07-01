@@ -1,4 +1,4 @@
-package org.czbalint.librarymanager.web;
+package org.czbalint.librarymanager.controller;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
@@ -17,7 +17,7 @@ import org.czbalint.librarymanager.entity.Book;
 import org.czbalint.librarymanager.entity.Loan;
 import org.czbalint.librarymanager.entity.Reader;
 import org.czbalint.librarymanager.service.LoanService;
-import org.czbalint.librarymanager.web.error.InvalidLoanStateException;
+import org.czbalint.librarymanager.error.InvalidLoanStateException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

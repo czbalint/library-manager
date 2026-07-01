@@ -1,4 +1,4 @@
-package org.czbalint.librarymanager.web.error;
+package org.czbalint.librarymanager.error;
 
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;

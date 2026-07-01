@@ -6,8 +6,8 @@ import org.czbalint.librarymanager.entity.Reader;
 import org.czbalint.librarymanager.repository.ReaderRepository;
 import org.czbalint.librarymanager.dto.CreateReaderRequest;
 import org.czbalint.librarymanager.dto.UpdateReaderRequest;
-import org.czbalint.librarymanager.web.error.DuplicateResourceException;
-import org.czbalint.librarymanager.web.error.ResourceNotFoundException;
+import org.czbalint.librarymanager.error.DuplicateResourceException;
+import org.czbalint.librarymanager.error.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -11,10 +11,10 @@ import org.czbalint.librarymanager.entity.Reader;
 import org.czbalint.librarymanager.repository.BookRepository;
 import org.czbalint.librarymanager.repository.LoanRepository;
 import org.czbalint.librarymanager.repository.ReaderRepository;
-import org.czbalint.librarymanager.web.error.BookNotAvailableException;
-import org.czbalint.librarymanager.web.error.InvalidLoanStateException;
-import org.czbalint.librarymanager.web.error.LoanLimitExceededException;
-import org.czbalint.librarymanager.web.error.ResourceNotFoundException;
+import org.czbalint.librarymanager.error.BookNotAvailableException;
+import org.czbalint.librarymanager.error.InvalidLoanStateException;
+import org.czbalint.librarymanager.error.LoanLimitExceededException;
+import org.czbalint.librarymanager.error.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

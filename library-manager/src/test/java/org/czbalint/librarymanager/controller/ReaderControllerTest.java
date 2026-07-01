@@ -1,4 +1,4 @@
-package org.czbalint.librarymanager.web;
+package org.czbalint.librarymanager.controller;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
@@ -16,8 +16,8 @@ import org.czbalint.librarymanager.dto.CreateReaderRequest;
 import org.czbalint.librarymanager.dto.UpdateReaderRequest;
 import org.czbalint.librarymanager.entity.Reader;
 import org.czbalint.librarymanager.service.ReaderService;
-import org.czbalint.librarymanager.web.error.DuplicateResourceException;
-import org.czbalint.librarymanager.web.error.ResourceNotFoundException;
+import org.czbalint.librarymanager.error.DuplicateResourceException;
+import org.czbalint.librarymanager.error.ResourceNotFoundException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

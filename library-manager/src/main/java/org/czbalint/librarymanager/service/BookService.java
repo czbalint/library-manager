@@ -6,8 +6,8 @@ import lombok.RequiredArgsConstructor;
 import org.czbalint.librarymanager.entity.Book;
 import org.czbalint.librarymanager.repository.BookRepository;
 import org.czbalint.librarymanager.dto.CreateBookRequest;
-import org.czbalint.librarymanager.web.error.DuplicateResourceException;
-import org.czbalint.librarymanager.web.error.ResourceNotFoundException;
+import org.czbalint.librarymanager.error.DuplicateResourceException;
+import org.czbalint.librarymanager.error.ResourceNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package org.czbalint.librarymanager.web;
+package org.czbalint.librarymanager.controller;
 
 import jakarta.validation.Valid;
 import java.util.List;
